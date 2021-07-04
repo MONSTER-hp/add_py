@@ -16,7 +16,7 @@ with open('add.json','w') as v:
     d = {'mem':[]}
     json.dump(d,v)
 
-sudo = TelegramClient("crazy_boy" , api_id , api_hash)
+sudo = TelegramClient("monster_hp" , api_id , api_hash)
 sudo.start()
 #MONSTER_SECURITY
 @sudo.on(events.NewMessage(outgoing=True, pattern='راهنما'))
